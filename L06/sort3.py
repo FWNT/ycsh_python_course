@@ -7,4 +7,4 @@ f=float(input('f='))
 x=(b*f-e*c)/(a*e-b*d)
 y=(a*f-d*c)/(b*d-a*e)
 print(x)
-print(y)
+print(y)1
