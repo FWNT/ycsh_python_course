@@ -7,6 +7,8 @@ if a>0:
     print('正偶數')
   else:
     print('正奇數')
+elif a==0:
+  print('偶數')
 else:
   if  a%2==0:
     print('負偶數')

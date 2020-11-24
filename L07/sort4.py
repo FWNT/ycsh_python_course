@@ -4,8 +4,8 @@ a=float(input('a='))
 b=float(input('b='))
 c=float(input('c='))
 d=float(input('d='))
-x=max(a,b,c,)
-y=min(a,b,c,)
+x=max(a,b,c)
+y=min(a,b,c)
 z=a+b+c-x-y
 if d>x:
   print(d)
@@ -17,7 +17,12 @@ elif d<y:
   print(z)
   print(y)
   print(d)
-if d>y && d<z:
+elif d>z:
+  print(x)
+  print(d)
+  print(z)
+  print(y)
+elif d<z:
   print(x)
   print(z)
   print(d)
