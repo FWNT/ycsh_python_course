@@ -1,0 +1,6 @@
+x=True
+y=True
+z=False
+print(not(y or z)or x)
+print(not y or (z or not x))
+print(bool(''))
